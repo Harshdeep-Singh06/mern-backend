@@ -1,5 +1,28 @@
-1778421302263:GET / New Req Recieved
-1778421341067:GET / New Req Recieved
-1778421371515:GET /about New Req Recieved
-1778421602928:GET /SignUp New Req Recieved
-1778421839873:GET /SignUp New Req Recieved
+// Versions in Node.js
+
+5.2.1
+
+1st Part -> 5
+2nd Part -> 2
+3rd Part -> 1
+
+// 3rd Part (Last Part) - Minor Fixes (Optional Update) Basically Fixes Minor bugs.
+
+// 2nd Part - Recommended Bug Fix (Security Fix) Fixes Critical Bugs or Add Something new in version that is recommended to update the version.
+
+// 1st Part - Major / Breaking Update
+
+// To install Particular version -> npm i express@version_name
+eg:- npm i express@5.1.0
+
+
+express =  ^5.2.1
+5th Version 
+
+^5.2.1 
+
+^  ->  install recommended and Minor fixes automatically.
+
+~5.2.1
+
+~  ->  install only minor fixes automatically.

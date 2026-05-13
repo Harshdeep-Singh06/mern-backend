@@ -1,8 +1,12 @@
 const express = require("express");
+const fs = require("fs");
 const users = require('./MOCK_DATA.json')
 
 const app = express();
 const PORT = 8000;
+
+// Middleware - Plugin
+app.use(express.urlencoded({ extended: false}));
 
 app.get('/users' , (req ,res) => {
    const html = `
@@ -18,14 +22,14 @@ app.get('/api/users', (req ,res) => {
     return res.json(users);
 })
 
-app.route('/api/users:id').get((req, res) => {
+app.route('/api/users/:id').get((req, res) => {
     const id = Number(req.params.id);
     const user = users.find(user => user.id === id)
     return res.json(user);
 })
 .patch((req,res)=>{
     //Edit user with id
-    res.json({satus:'pending'})
+    res.json({status:'pending'})
 })
 .delete((req,res)=>{
     //Delete user with id 
@@ -35,8 +39,11 @@ app.route('/api/users:id').get((req, res) => {
 
 
 app.post('/api/users', (req, res) => {
-   // TODO: Create new user
-   return res.json({ status: "pending"});
+   const body = req.body;
+   users.push({...body, id: users.length + 1});
+   fs.writeFile('./MOCK_DATA.json', JSON.stringify(users),(err, data) => {
+   return res.json({ status: "success", id: users.length});
+   })
 })
 
 

@@ -8,6 +8,18 @@ const PORT = 8000;
 // Middleware - Plugin
 app.use(express.urlencoded({ extended: false}));
 
+app.use((req, res, next)=>{
+    fs.appendFile('log.txt', `${Date.now()}: ${req.ip} ${req.method}: ${req.path}\n`, (err,data)=>{
+        next();
+    })
+})
+
+app.use((req, res, next)=>{
+    // console.log("Middleware 2")
+    // return res.end("hey");
+    next();
+})
+
 app.get('/users' , (req ,res) => {
    const html = `
    <ul>

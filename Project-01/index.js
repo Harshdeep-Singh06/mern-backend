@@ -31,6 +31,7 @@ app.get('/users' , (req ,res) => {
 
 //REST API 
 app.get('/api/users', (req ,res) => {
+    res.setHeader("myName")
     return res.json(users);
 })
 

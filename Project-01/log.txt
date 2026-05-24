@@ -3,17 +3,3 @@
 1778700503428: ::1 POST: /api/users
 1778700526505: ::1 GET: /api/Users/107
 
-1779512923816: ::1 GET: /api/users/1001
-1779512936003: ::1 GET: /api/users/1005
-1779512946215: ::1 GET: /api/users/1
-1779513164486: ::1 GET: /api/users
-1779513258440: ::1 GET: /api/users
-1779513318149: ::1 GET: /api/user
-1779513338617: ::1 GET: /api/users%20
-1779515931337: ::1 GET: /api/users%20
-1779516112244: ::1 GET: /api/users
-1779516370395: ::1 GET: /api/users
-1779516372757: ::1 GET: /api/users
-1779516417907: ::1 GET: /api/users
-1779516785095: ::1 GET: /api/users
-1779516982322: ::1 GET: /api/users

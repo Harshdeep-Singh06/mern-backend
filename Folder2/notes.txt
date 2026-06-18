@@ -2,3 +2,13 @@ npm => node package manager.
 package.json => configuration file. 
 Tp run project make scripts in package.json.
 fs.writeFileSync(".\") used to create file.
+
+// How nodeJS works ?? nodeJS Architecture
+
+req -> to event queue -> to event loop(FIFO)
+
+if it is ->
+
+Blocking operations -> Synchronous --> give response (but it has limited threads then it will wait for the worker to free if all threads in work)
+
+Non-Blocking operations -> Asynchronous --> Thread pool/Assign Workers(they fullfill the need) then --> give response 

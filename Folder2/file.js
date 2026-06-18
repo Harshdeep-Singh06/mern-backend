@@ -29,3 +29,13 @@ const fs = require("fs");
 
 // console.log(fs.statSync("./test.txt"));
 // fs.mkdirSync('my-docs/a', {recursive: true});
+
+//Sync..Blocking..
+// fs.writeFileSync('./test.txt', 'Hello there');
+
+//Async..Non-Blocking Req..
+// fs.writeFile('./test.txt', 'Hey there', (err)=>{});
+
+const os = require('os');
+
+console.log(os.cpus().length);

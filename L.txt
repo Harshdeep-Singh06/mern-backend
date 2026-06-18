@@ -1,0 +1,9 @@
+URL =>> Uniform Resource Locator
+
+example: https://www.harshretro.dev/
+
+1. [ https:// ] --> protocol (https-- Hypertext Transfer Protocol Secure).
+
+2. [ www.harshretro.dev/ ] --> Domain (User Friendly Name of IP Address of My Server).
+
+3.[ / ] --> Root path.

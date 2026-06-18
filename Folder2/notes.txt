@@ -1,3 +1,4 @@
 npm => node package manager.
 package.json => configuration file. 
 Tp run project make scripts in package.json.
+fs.writeFileSync(".\") used to create file.

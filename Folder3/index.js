@@ -11,20 +11,27 @@ const myServer = http.createServer((req, res)=>{
     const log = `${Date.now()}: ${req.url}\n`;
 
     const myUrl = url.parse(req.url, true);
-    console.log(myUrl);
+    // console.log(myUrl);
 
     fs.appendFile('log.txt',log, (err,data)=>{
         switch(myUrl.pathname){
-            case '/': res.end("Homepage");
+            case '/': 
+            return res.end("Homepage");
             break;
             case '/about':
-                const username = myUrl.query.myname
-             res.end('');
+            const username = myUrl.query.myname;
+            return res.end(`Hi, ${username}`);
             break;
-            default: res.end("4O4 Not Found");
+            case '/search':
+                const search = myUrl.query.search_query;
+                res.end(`Here are your results for ${search}`);
+                break;
+            default:
+            return res.end("4O4 Not Found");
+
         }
     });
    
 });
 
-myServer.listen(8000,() => console.log("Server Started") )
+myServer.listen(8000,() => console.log("Server Started") );

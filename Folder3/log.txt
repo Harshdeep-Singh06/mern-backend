@@ -11,7 +11,4 @@
 1781787476493: /about?myname=johnyy&userid=1&search=dog
 1781787510730: /search?search_query=navaan%20sandhu+Level+graph
 1781787565679: /search?search_query=navaansandhu
-1781787679922: /search?search_query=navaansandhu
-1781787683986: /search?search_query=navaansandhu
-1781787729405: /search?search_query=navaansandhu
 

@@ -1,0 +1,12 @@
+What is Node JS -> Node JS is 
+
+Javascript --> Runs only under in Browser because every browser has engine that is Javascript engine to exicute code.
+Every browser has own engine Most popular is V8 Engine that is used to run code in JS.
+A scientist embeded (V8 engine with C++ ) And this is NodeJS.
+Now we can run JS outside of the browser.
+Jacascript can talk to native machine because of C++.
+You can create webservers in Javascript Language.
+NodeJS is just Runtime Environment for javascript.
+
+NPM --> Node Package Manager
+

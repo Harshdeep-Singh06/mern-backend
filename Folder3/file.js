@@ -25,4 +25,4 @@ const fs = require("fs");
 // fs.unlinkSync('./copy.txt')
 // console.log(fs.statSync("./test.txt"));
 // console.log(fs.statSync("./test.txt").isFile());
-// fs.mkdirSync('my-docss/a/b',{recursive:true})
+fs.mkdirSync('my-docss/a/b',{recursive:true})

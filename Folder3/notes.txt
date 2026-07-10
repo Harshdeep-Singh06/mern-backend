@@ -10,3 +10,26 @@ NodeJS is just Runtime Environment for javascript.
 
 NPM --> Node Package Manager
 
+Node JS Architecture:
+client make request to server
+request first queue in event queue
+if user 1 req -> event queue
+user 2  -> event queue 
+after that req goes to event loop 
+FIFO 
+pick req it is of two types:
+Blocking operations (SYNC)
+Non - Blocking operations (ASYNC)
+
+if it is Non-Blocking:
+it is simple req then it process and response to the user.
+
+if it is Blocking Operation:
+then it goes to thread pool.
+thread pool is a pool in which there are thread.
+thread means workers (threads are limited)
+then each thread assigning to do task
+
+if no thread free then task will wait until thread become free. 
+so always run non-blocking operations. [Async]
+

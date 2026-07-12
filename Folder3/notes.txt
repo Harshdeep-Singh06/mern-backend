@@ -33,3 +33,5 @@ then each thread assigning to do task
 if no thread free then task will wait until thread become free. 
 so always run non-blocking operations. [Async]
 
+Default thread pool size = 4 {max req = 4}
+increase up to your cores in cpu .

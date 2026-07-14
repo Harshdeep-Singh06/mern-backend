@@ -1,11 +1,13 @@
-1784033312559: New Req Recieved
-1784033312654: New Req Recieved
-1784033557499: / New Req Recieved
-1784033557560: /favicon.ico New Req Recieved
-1784033825362: / New Req Recieved
-1784033825423: /favicon.ico New Req Recieved
-1784033863865: / New Req Recieved
-1784033863922: /favicon.ico New Req Recieved
-1784033870500: /about New Req Recieved
-1784033989543: /jn New Req Recieved
-1784033989663: /favicon.ico New Req Recieved
+1784035028195: GET /jn New Req Recieved
+1784035028250: GET /favicon.ico New Req Recieved
+1784035034898: GET /home New Req Recieved
+1784035034954: GET /favicon.ico New Req Recieved
+1784035062920: GET / New Req Recieved
+1784035062972: GET /favicon.ico New Req Recieved
+1784035464758: GET / New Req Recieved
+1784035464825: GET /favicon.ico New Req Recieved
+1784035471986: GET /SignUp New Req Recieved
+1784035472042: GET /favicon.ico New Req Recieved
+1784035500251: GET /SignUp New Req Recieved
+1784035500307: GET /favicon.ico New Req Recieved
+1784035534470: GET /SignUp New Req Recieved

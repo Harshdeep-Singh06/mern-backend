@@ -61,3 +61,18 @@ HTTP Methods:
 if use npm i express to download -> it download latest Version
 or if i used npm i ecpress@.... version name -> it installs that specify version
 
+Restfull API:
+1.Client:- req
+2.Server:- response 
+> Communication between them need some rules that provide rest full API.
+> It works on Server Client Architecture.
+> Always respect HTTP Methods:
+    GET POST PUT PATCH DELETE
+eg. GET/user = users data read kro and return data 
+eg. POST/user = handle new user creation
+egPATCH/user = Update the user 
+>they respect HTTP methods but what if:
+POST/updateUser -> user update
+POST/createUser -> user update
+they works but it confuses so always respect HTTP methods 
+

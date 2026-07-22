@@ -76,3 +76,6 @@ POST/updateUser -> user update
 POST/createUser -> user update
 they works but it confuses so always respect HTTP methods 
 
+HEADERS:
+Think like a mail :-
+>the info on mail box  on the outside of the letter like who sends to whom.

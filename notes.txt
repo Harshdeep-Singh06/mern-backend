@@ -78,4 +78,4 @@ they works but it confuses so always respect HTTP methods
 
 HEADERS:
 Think like a mail :-
->the info on mail box  on the outside of the letter like who sends to whom.
+>the info on mail box  on the outside of the letter like who sends to whom

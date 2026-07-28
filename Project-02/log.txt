@@ -8,3 +8,9 @@
 1784711483247:::1 GET:/api/users
 1784711528558:::1 GET:/api/users
 1784711546490:::1 GET:/api/users
+1785242187111:::1 GET:/api/users
+1785242264265:::1 POST:/api/users
+1785242498246:::1 GET:/api/users
+1785242503807:::1 POST:/api/users
+1785242820283:::1 POST:/api/users
+1785242847731:::1 POST:/api/users

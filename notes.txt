@@ -78,4 +78,13 @@ they works but it confuses so always respect HTTP methods
 
 HEADERS:
 Think like a mail :-
->the info on mail box  on the outside of the letter like who sends to whom
+>the info on mail box  on the outside of the letter like who sends to whom.
+
+HTTP STATUS CODE:
+--> (100-199):- Informational response 
+--> (200-299):- Succesfull response (ok)
+--> (300-399):- Redirection messages
+--> (400-499):- Client error responses
+--> (500-599):- Serrver error responses
+
+

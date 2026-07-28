@@ -87,4 +87,9 @@ HTTP STATUS CODE:
 --> (400-499):- Client error responses
 --> (500-599):- Serrver error responses
 
-
+MongoDb command:
+> show dbs -> stands for show databases
+> use <db_name> -> switch databases 
+> show collections -> give collections
+> db.coll.find() -> queries 
+> db.coll.insert() -> quiries

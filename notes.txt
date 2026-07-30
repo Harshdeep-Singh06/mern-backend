@@ -93,3 +93,9 @@ MongoDb command:
 > show collections -> give collections
 > db.coll.find() -> queries 
 > db.coll.insert() -> quiries
+
+Mongoose:
+Schema :- Define the structure
+Using Schema we make Model.
+Using Model we do CRUD Operation.
+

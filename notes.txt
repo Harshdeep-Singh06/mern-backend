@@ -99,3 +99,5 @@ Schema :- Define the structure
 Using Schema we make Model.
 Using Model we do CRUD Operation.
 
+
+Model View Controller:

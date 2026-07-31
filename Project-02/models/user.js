@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { useSyncExternalStore } = require("react");
+// const { useSyncExternalStore } = require("react");
 
 const userSchema = new mongoose.Schema({
     firstName:{
